@@ -11,14 +11,14 @@ function Home() {
   return (
     <SafeAreaView style={{flex:1,backgroundColor:COLORS.lightWhite}}>
       <Stack.Screen options={{
-        headerStyle:{backgroundColor:COLORS.lightWhite},
+        headerStyle:{backgroundColor:COLORS.white},
         headerShadowVisible:false,
         headerLeft:()=>(
           <ScreenHeaderBtn iconUrl={icons.menu} dimensions={"60%"}/>
         )
         ,
         headerRight:()=>(
-          <ScreenHeaderBtn iconUrl={icons.profile} dimensions={"100%"}/>
+          <ScreenHeaderBtn iconUrl={images.profile} dimensions={"100%"}/>
         ),
         headerTitle:""
       }} />
